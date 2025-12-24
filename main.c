@@ -27,7 +27,7 @@ void _start(void) {
 
 int main( void )
 {
-    write( STDOUT_FD, "hello\n", 6 );
+    write( STDOUT_FD, "Hello, World!\n", 14 );
     return 0;
 }
 
